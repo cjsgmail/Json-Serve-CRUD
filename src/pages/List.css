@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  display: flex;
+}
+
+section {
+  width: 50%;
+}
+
+li {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title:hover {
+  cursor: pointer;
+}

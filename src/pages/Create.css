@@ -1,0 +1,41 @@
+input {
+  margin-top: 0.5rem;
+}
+
+input:focus {
+  outline: none;
+  background-color: aliceblue;
+}
+
+form {
+  width: 50%;
+  margin-left: 1rem;
+}
+
+textarea {
+  width: 90%;
+  margin-top: 1rem;
+  height: 6.25em;
+  border: solid 1px;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none;
+  background-color: aliceblue;
+}
+
+.inputTitle {
+  width: 90%;
+  border: solid 1px;
+}
+
+.username,
+.submitBtn {
+  border: solid 1px;
+}
+
+.submitBtn {
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
